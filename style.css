@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: radial-gradient(ellipse at bottom, #1b0033, #000000);
+  color: white;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #a15cff;
+}
+.menu-toggle {
+  font-size: 1.5em;
+  cursor: pointer;
+  display: block;
+}
+nav {
+  display: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: block;
+  margin: 1em 0;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
